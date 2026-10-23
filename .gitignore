@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Ferramentas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# VS Code e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Dados gerados
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+reports/*
+!reports/.gitkeep
+
+# Bancos de dados
+*.db
+*.sqlite
+*.sqlite3
+
+# Segredos e variáveis locais
+.env
+.env.*
+!.env.example
